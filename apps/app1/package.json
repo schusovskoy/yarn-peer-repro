@@ -1,0 +1,9 @@
+{
+  "name": "app1",
+  "dependencies": {
+    "lib1": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}

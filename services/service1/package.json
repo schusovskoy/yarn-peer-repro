@@ -1,0 +1,10 @@
+{
+  "name": "service1",
+  "dependencies": {
+    "app1": "workspace:*",
+    "react": "18.1.0"
+  },
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  }
+}
