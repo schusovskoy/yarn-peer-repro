@@ -11,42 +11,22 @@ __metadata:
   dependencies:
     lib1: "workspace:*"
   peerDependencies:
-    react: "*"
+    lodash.concat: "*"
   languageName: unknown
   linkType: soft
-
-"js-tokens@npm:^3.0.0 || ^4.0.0":
-  version: 4.0.0
-  resolution: "js-tokens@npm:4.0.0"
-  checksum: 8a95213a5a77deb6cbe94d86340e8d9ace2b93bc367790b260101d2f36a2eaf4e4e22d9fa9cf459b38af3a32fb4190e638024cf82ec95ef708680e405ea7cc78
-  languageName: node
-  linkType: hard
 
 "lib1@workspace:*, lib1@workspace:libs/lib1":
   version: 0.0.0-use.local
   resolution: "lib1@workspace:libs/lib1"
   peerDependencies:
-    react: "*"
+    lodash.concat: "*"
   languageName: unknown
   linkType: soft
 
-"loose-envify@npm:^1.1.0":
-  version: 1.4.0
-  resolution: "loose-envify@npm:1.4.0"
-  dependencies:
-    js-tokens: ^3.0.0 || ^4.0.0
-  bin:
-    loose-envify: cli.js
-  checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
-  languageName: node
-  linkType: hard
-
-"react@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react@npm:18.1.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 5bb296b561b43ef2220395da4faac86c14a087c8c80e1a7598a5740f01ee605c11eaf249985c1e2000971c4cd32ccb46d40f00479bbd9fb6b1c7cf857393b7d4
+"lodash.concat@npm:4.5.0":
+  version: 4.5.0
+  resolution: "lodash.concat@npm:4.5.0"
+  checksum: dd9d407875e71d0c061b9cf3e7cc0512ba16cfe164ce3b84244fe6e7be82c9e13cbb67221c08c011263e33244151b89b05ef85e0f620017abdbdf12b933604d3
   languageName: node
   linkType: hard
 
@@ -55,7 +35,7 @@ __metadata:
   resolution: "service1@workspace:services/service1"
   dependencies:
     app1: "workspace:*"
-    react: 18.1.0
+    lodash.concat: 4.5.0
   languageName: unknown
   linkType: soft
 

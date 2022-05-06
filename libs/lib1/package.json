@@ -1,6 +1,6 @@
 {
   "name": "lib1",
   "peerDependencies": {
-    "react": "*"
+    "lodash.concat": "*"
   }
 }

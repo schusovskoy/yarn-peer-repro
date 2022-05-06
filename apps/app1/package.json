@@ -4,6 +4,6 @@
     "lib1": "workspace:*"
   },
   "peerDependencies": {
-    "react": "*"
+    "lodash.concat": "*"
   }
 }

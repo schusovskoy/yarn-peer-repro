@@ -2,7 +2,7 @@
   "name": "service1",
   "dependencies": {
     "app1": "workspace:*",
-    "react": "18.1.0"
+    "lodash.concat": "4.5.0"
   },
   "installConfig": {
     "hoistingLimits": "workspaces"
